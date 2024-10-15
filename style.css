@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    font-family: "Macondo", cursive;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90dvh;
+    width: 90dvw;
+    padding: 5dvh 5dvw;
+    background-color: #A75FFA;
+    color: #fff;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.btn-proximo {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #472869;
+    background-color: #fff;
+    font-size: 1em;
+}
