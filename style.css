@@ -16,6 +16,7 @@ body {
 
 p {
     font-size: 1.5em;
+    word-break: keep-all;
 }
 
 button {
@@ -32,5 +33,26 @@ button {
 }
 
 .passo.ativo {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 90%;
+    text-align: center;
+}
+
+main h1 {
+    position: absolute;
+    bottom: 90%;
+}
+
+img {
+    max-width: 40%;
 }
